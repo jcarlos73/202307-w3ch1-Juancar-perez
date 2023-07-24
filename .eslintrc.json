@@ -8,7 +8,8 @@
     {
       "extends": ["xo-typescript", "prettier"],
       "rules": {
-        "no-unused-vars": "error"
+        "no-unused-vars": "error",
+        "@typescript-eslint/consistent-type-definitions": ["error", "interface"]
       },
       "files": ["*.ts", "*.tsx"]
     }
