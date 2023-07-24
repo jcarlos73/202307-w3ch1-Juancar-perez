@@ -6,7 +6,10 @@
   "extends": ["xo", "prettier"],
   "overrides": [
     {
-      "extends": ["xo-typescript"],
+      "extends": ["xo-typescript", "prettier"],
+      "rules": {
+        "no-unused-vars": "error"
+      },
       "files": ["*.ts", "*.tsx"]
     }
   ],
