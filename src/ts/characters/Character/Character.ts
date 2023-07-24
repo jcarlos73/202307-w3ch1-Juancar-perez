@@ -1,4 +1,4 @@
-import { type CharacterData } from "../types.js";
+import { type CharacterData } from "../../types.js";
 
 export class Character {
   isAlive = true;
